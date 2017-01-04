@@ -1,12 +1,19 @@
 
 package cz.habarta.typescript.generator;
 
-import cz.habarta.typescript.generator.emitter.EmitterExtension;
-import cz.habarta.typescript.generator.util.Predicate;
 import java.io.File;
 import java.lang.annotation.Annotation;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.regex.Pattern;
+
+import cz.habarta.typescript.generator.emitter.EmitterExtension;
+import cz.habarta.typescript.generator.util.Predicate;
 
 
 /**
@@ -16,8 +23,8 @@ import java.util.regex.Pattern;
  */
 public class Settings {
     public String newline = String.format("%n");
-    public String quotes = "\"";
-    public String indentString = "    ";
+    public String quotes = "'";
+    public String indentString = "\t";
     public TypeScriptFileType outputFileType = TypeScriptFileType.declarationFile;
     public TypeScriptOutputKind outputKind = null;
     public String module = null;
