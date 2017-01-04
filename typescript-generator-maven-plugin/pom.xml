@@ -4,11 +4,11 @@
 
     <parent>
         <groupId>cz.habarta.typescript-generator</groupId>
-        <artifactId>typescript-generator</artifactId>
+        <artifactId>typescript-generator-nuclos</artifactId>
         <version>1.14-SNAPSHOT</version>
     </parent>
 
-    <artifactId>typescript-generator-maven-plugin</artifactId>
+    <artifactId>typescript-generator-nuclos-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
     <name>typescript-generator-maven-plugin</name>
 

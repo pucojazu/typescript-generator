@@ -4,11 +4,11 @@
 
     <parent>
         <groupId>cz.habarta.typescript-generator</groupId>
-        <artifactId>typescript-generator</artifactId>
+        <artifactId>typescript-generator-nuclos</artifactId>
         <version>1.14-SNAPSHOT</version>
     </parent>
 
-    <artifactId>typescript-generator-gradle-plugin</artifactId>
+    <artifactId>typescript-generator-nuclos-gradle-plugin</artifactId>
     <packaging>jar</packaging>
     <name>typescript-generator-gradle-plugin</name>
 
